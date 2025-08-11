@@ -5,6 +5,7 @@
 export enum Country {
   USA = 'USA',
   Canada = 'Canada',
+  Australia = 'Australia'
 }
 
 export const countryStateData: { [key: string]: string[] } = {
@@ -74,5 +75,15 @@ export const countryStateData: { [key: string]: string[] } = {
     'Quebec',
     'Saskatchewan',
     'Yukon',
+  ],
+  [Country.Australia]: [
+    'ACT',
+    'NSW',
+    'NT',
+    'QLD',
+    'SA',
+    'TAS',
+    'VIC',
+    'WA',
   ],
 };
